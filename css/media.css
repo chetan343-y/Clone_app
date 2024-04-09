@@ -1,0 +1,40 @@
+.social-media-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .social-media-buttons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+  }
+  
+  .social-media-buttons a:hover {
+    opacity: 0.8;
+  }
+  
+  .facebook-button {
+    background-color: #d836c3;
+  }
+  
+  .twitter-button {
+    background-color: #55ACEE;
+  }
+  
+  .youtube-button {
+    background-color: #C4302B;
+  }
+  
+  .fa {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  

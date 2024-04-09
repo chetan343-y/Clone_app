@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown .button{
+    background-color: hsl(0, 38%, 58%);
+    color:white;
+    border:none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: rgb(251, 250, 249);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: hsl(31, 76%, 73%);
+    min-width:100px;
+    box-shadow: 2px 2px 5px hsl(0,0%,0%,0.8);
+
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover .button{
+    background-color:  hsl(0, 71%, 72%);
+}
+.dropdown a:hover{
+    background-color: hsl(30, 99%, 46%);
+}
+
+nav{
+    display:flex;
+    background-color: rgb(255, 143, 57);
+    height: 45%;
+    width: 100%;
+    align-items: center;
+}
+.logo{
+    margin-top: 0;
+    display: flex;
+    height:90px;
+    width: 30%;
+    margin-left: 1%;
+}
+nav ul{
+    color: white;
+    margin-top: 2.5%;
+    display: flex;
+    gap: 45px;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+nav ul li{
+    list-style: none;
+}
+.fix{  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.join{
+    background-color: orange;
+    color: white;
+    height: 56px;
+    padding: 22px;
+}
+.hero{
+    display: flexbox;
+ font-size: x-large;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left:20px;
+    height: 130px;  
+    float:left;
+    margin-right: 50px;
+
+}
+#preloader{
+    background: white url(/Project!/img/WhatsApp_Image_2024-04-02_at_20.22.17_fd8dbc47-removebg-preview.png) no-repeat center center;
+   background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.popo{
+    background-image: url(/Project!/img/breadcrumbs.jpg);
+}
+
+header {
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Style for the line effect */
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: #f59a1a;
+    transition: width 0.3s ease;
+}
+
+/* Hover effect */
+header:hover::after {
+    width: 100%;
+}
