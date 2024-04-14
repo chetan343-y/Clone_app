@@ -1,0 +1,53 @@
+
+.meals-showcse{
+    list-style: none;
+    width: 100%;
+}
+.meals-showcse li{
+    display: block;
+   float: inline-start;
+    width: 25%;
+}
+.meal-photo{
+    
+    width: 100%;
+    margin: 0;
+    overflow:hidden ;
+    background-color: #ffffff;
+    transition: transform 0.5s,opacity 0.5s;
+}
+.meal-photo img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transform: scale(1.14);
+    opacity: 0.7;
+}
+.meal-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+.card-header:hover{
+ color: orange;
+ background-color: antiquewhite;
+}
+.card-text{
+    color: orange;
+}
+.border-2:hover{
+background:#b0adad;
+
+}
+.contact-form{
+    width: 30%;
+    margin: 0 auto;
+}
+input[type=email],
+select,
+textarea{
+    width:100% ;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid  #ccc;
+
+}
